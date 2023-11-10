@@ -41,11 +41,12 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .output {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    min-height: 100px;
+    width: 500px; /* Establecemos una altura fija */
+    overflow-y: auto; /* Agregamos un desplazamiento vertical cuando es necesario */
+    word-wrap: break-word; /* Permite que las palabras largas se rompan y continúen en la siguiente línea */
 }
